@@ -38,3 +38,5 @@ The volunteers are informed that they can end their participation at any time an
    - Excerpt from the song “Dancing Queen” by ABBA
 9. To end the experiment, the pulse oximeter is removed from the participant and they are thanked for their participation.
   The participant is asked to fill out the post-test form: It is pointed out that they must answer this by reporting what they personally felt while viewing the scene and not what they thought people should feel with that scene.
+## Data Available 
+After collecting the data with the methodology mentioned above, we ended up with 5 cropped videos for each 120 volunteers experimenting specific emotions (anger, happiness, fear and neutral) aditionally, there's available a set of frames we hand picked from each cropped video showing different gestures, which we use to train the neural network on each emotion, feel free to check it out if you want access to the data. 
