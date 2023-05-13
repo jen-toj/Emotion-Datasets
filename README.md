@@ -1,5 +1,5 @@
-# Emotions-Datasets
-This repository contains a database consisting of different images/videos collected from undergrad students of the University of Monterrey experiencing different emotions due to audiovisual stimuli with previous experimentation endorsed to provoke said emotions. Our end goal was to perform a facial analysis and, through a neural network architecture; to be able to classify the type of emotion present in the user as a reaction to the stimulus in question.
+# Emotions Database 
+This repository contains a database consisting of different images/videos collected from undergraduate students of the University of Monterrey who were experiencing various emotions due to audiovisual stimuli. The collection process was supported by previous experimentation aimed at eliciting these emotions. Our ultimate objective was to perform facial analysis and utilize a neural network architecture to classify the specific type of emotion exhibited by the users in response to the stimulus in question.
 ## Table of Contents
 
 - [Background](#background)
@@ -11,15 +11,17 @@ This repository contains a database consisting of different images/videos collec
 - [Contact](#contact)
 
 ## Background
-This Dataset was used for the thesis project called *"Emotions recognition through facial analysis"* to obtain the mechatronics engineering bachelor's degree at Universidad de Monterrey. Our motivation was to 
-find a way to mitigate the security problems reported by users, mostly female passengers, of private transportation platforms (e.g. Uber, Didi, Cabify, etc.) Our proposal was to develop a computer vision application with a camera installed in the vehicle cabin capable of detecting specific emotions from the passenger to predict risky situations while using this services. 
-We used neural networks and to train our algorithm we obtained our own dataset by multiple researches on how to generate emotions ethically.
+This dataset was used for the thesis project titled 'Emotion Recognition through Facial Analysis' to fulfill the requirements for obtaining a Bachelor's degree in Mechatronics Engineering at Universidad de Monterrey. Our motivation stemmed from the need to address security concerns reported by users, particularly female passengers, of private transportation platforms such as Uber, Didi, Cabify, etc. Our proposal involved developing a computer vision application with a camera installed in the vehicle cabin, capable of detecting specific emotions in passengers to predict potentially risky situations while using these services. We employed neural networks and generated our own dataset through multiple ethical research studies on emotion generation to train our algorithm. 
 
 ## Methodology 
-The experimental tests were carried out in a designated room within the facilities of the Universidad de Monterrey, the participants were members of the university and decided to take part in the research voluntarily after having read and signed the informed consent form. The population studied will consist of men and women of adulthood with Spanish as their native language, 60 men and 60 women between 18 and 23 years old. 
-The volunteers were received in the room and the informed consent form was read, all doubts that may arised from the volunteer regarding the protocol were answered and the signature of the document was collected. 
-We explained to the participant that we will be recording while different movie scenes are projected on a laptop, and at the same time they are wearing a pulse oximeter. We told them that the aim of the study is to gain more knowledge about emotions so the experiment required to present movie clips that potentially elicit a wide range of emotions. In addition, we asked the volunteers to keep their hands on the desk as much as possible and face the clips.
-The volunteers are informed that they can end their participation at any time and that their responses are anonymous. This was the general procedure to collect the database:
+The experimental tests were conducted in a designated room within the facilities of the Universidad de Monterrey. The participants were university members who voluntarily chose to participate in the research after reading and signing the informed consent form. The study population consisted of Spanish-speaking adults, including 60 men and 60 women aged between 18 and 23 years old.
+
+Upon arrival, the volunteers were welcomed into the room and provided with an explanation of the research protocol. Any doubts or questions raised by the volunteers regarding the protocol were addressed, and their signatures were collected on the informed consent form.
+
+We explained to the participants that we would be recording their responses while showing different movie scenes on a laptop, while they simultaneously wore a pulse oximeter. We informed them that the purpose of the study was to gain a deeper understanding of emotions, which required the presentation of movie clips that had the potential to evoke a wide range of emotional responses. Additionally, we asked the volunteers to keep their hands on the desk as much as possible and face the clips.
+
+The volunteers were informed that they had the right to withdraw from the study at any time and that their responses would remain anonymous. This was the general procedure followed to collect the database.
+
 1. The volunteer must sit in a chair in front of a table, the same position in which they will remain for approximately 15 minutes, and the pulse oximeter will be placed on the tip of the index finger.
 2. The participant will perform the designated test to transmit **anger** 
   - Visual stimulus: 
@@ -39,7 +41,7 @@ The volunteers are informed that they can end their participation at any time an
 9. To end the experiment, the pulse oximeter is removed from the participant and they are thanked for their participation.
   The participant is asked to fill out the post-test form: It is pointed out that they must answer this by reporting what they personally felt while viewing the scene and not what they thought people should feel with that scene.
 ## Data Available 
-After collecting the data with the methodology mentioned above, we ended up with 5 cropped videos for each 120 volunteers (603 videos) experimenting specific emotions (anger, happiness, fear and neutral) aditionally, there's available a set of frames we hand picked from each cropped video showing different gestures, which we use to train the neural network on each emotion, feel free to check it out or handpick yours from the original videos. 
+After collecting the data using the aforementioned methodology, we obtained a total of 603 videos, consisting of 5 cropped videos for each of the 120 volunteers who experienced specific emotions (anger, happiness, fear, and neutral). Additionally, we have a set of frames that we handpicked from each cropped video, showcasing various gestures. These frames were used to train the neural network for each emotion. You are welcome to check them out or select your own frames from the original videos. 
 ### Data code name 
 Each video and frame are coded for it to be anonymous, for example "S101-E02.jpeg" for a frame refers to the second image of volunteer 101th experimenting anger. 
 - SXXX: volunteer number 
@@ -50,7 +52,7 @@ Each video and frame are coded for it to be anonymous, for example "S101-E02.jpe
    - N: neutral
 - E0X: frame number for that emotion
 ## Acces Data 
-All data are shared through a Google Drive unit, secured and managed by Universidad de Monterrey (UDEM) as a research data repository. Interested scientists may obtain access to videos and images from the data for the purposes of scientific investigation, teaching, or planning emotion, computer vision, AI or related research studies. Access is contingent on adherence to the Data Use Agreement and the publications’ policies outlined in the documents listed below. Note: documents are subject to updates by UDEM and the researchers. 
+All data are shared through a Google Drive unit, which is secured and managed by the Universidad de Monterrey (UDEM) as a research data repository. Interested scientists can request access to the videos and images in the dataset for scientific investigations, teaching purposes, or planning research studies related to emotions, computer vision, AI, or other relevant fields. Access will be granted based on adherence to the Data Use Agreement and the publication policies outlined in the documents listed below. Please note that these documents are subject to updates by UDEM and the researchers.
 
  - Data Use Agreement
  - Group Acknowledgements List 
@@ -60,7 +62,16 @@ Data from pulsioximeter is complementary to the database and are also available 
 ** May not be available at the time the database is being published 
 
 ## Apply for acces to data 
+
+The application process includes acceptance of the *Data Use Agreement* and submission of an online application form. The application must include the
+investigator’s institutional affiliation and the proposed uses of the data. Data may not be used for commercial products or redistributed in any way.
+
+Apply in the following link: 
+- link **
+
 ## Application Review
+The Data Sharing and Publications Committee generally reviews data use applications within two weeks of submission. Each application is carefully reviewed to verify investigator affiliation with a scientific or educational institution and on the basis of the proposed research or data use. Incomplete applications or those without a clear focus will not receive approval. The results of the Committee's review will be sent via email. Approved applicants will receive login information to access and download the desired data. 
+
 ## Contact
 For questions or other requirements you can contact either of the members who took part in the research:
 - PhD. Antonio Martínez Torteya - Advisor (antonio.martinez@udem.edu)
