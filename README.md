@@ -39,4 +39,31 @@ The volunteers are informed that they can end their participation at any time an
 9. To end the experiment, the pulse oximeter is removed from the participant and they are thanked for their participation.
   The participant is asked to fill out the post-test form: It is pointed out that they must answer this by reporting what they personally felt while viewing the scene and not what they thought people should feel with that scene.
 ## Data Available 
-After collecting the data with the methodology mentioned above, we ended up with 5 cropped videos for each 120 volunteers experimenting specific emotions (anger, happiness, fear and neutral) aditionally, there's available a set of frames we hand picked from each cropped video showing different gestures, which we use to train the neural network on each emotion, feel free to check it out if you want access to the data. 
+After collecting the data with the methodology mentioned above, we ended up with 5 cropped videos for each 120 volunteers (603 videos) experimenting specific emotions (anger, happiness, fear and neutral) aditionally, there's available a set of frames we hand picked from each cropped video showing different gestures, which we use to train the neural network on each emotion, feel free to check it out or handpick yours from the original videos. 
+### Data code name 
+Each video and frame are coded for it to be anonymous, for example "S101-E02.jpeg" for a frame refers to the second image of volunteer 101th experimenting anger. 
+- SXXX: volunteer number 
+- Letter after dash: 
+   - E: anger 
+   - F: happiness
+   - M: fear
+   - N: neutral
+- E0X: frame number for that emotion
+## Acces Data 
+All data are shared through a Google Drive unit, secured and managed by Universidad de Monterrey (UDEM) as a research data repository. Interested scientists may obtain access to videos and images from the data for the purposes of scientific investigation, teaching, or planning emotion, computer vision, AI or related research studies. Access is contingent on adherence to the Data Use Agreement and the publications’ policies outlined in the documents listed below. Note: documents are subject to updates by UDEM and the researchers. 
+
+ - Data Use Agreement
+ - Group Acknowledgements List 
+
+Data from pulsioximeter is complementary to the database and are also available through the application.** 
+
+** May not be available at the time the database is being published 
+
+## Apply for acces to data 
+## Application Review
+## Contact
+For questions or other requirements you can contact either of the members who took part in the research:
+- PhD. Antonio Martínez Torteya - Advisor (antonio.martinez@udem.edu)
+- André Luna Flores - Student (andre.luna@udem.edu)
+- Jenyfer Eugenia Toj López - Student (jenyfer.toj@udem.edu)
+- Juan Carlos Aguilar - Student (juancarlos.aguilarr@udem.edu)
